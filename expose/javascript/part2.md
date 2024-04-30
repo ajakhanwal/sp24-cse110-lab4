@@ -1,13 +1,23 @@
 Question 1: It will print the value of prices.length as we use the var declaration that uses function scope. 
+
 Question 2: It will print the discountedPrice value which will be prices[prices.length-1]*(1-discount). This is because the declaration is using var which can be accessed anywhere in teh function. 
+
 Question 3: It will print the value of finalPrice from the last iteration of the for loop. This is because finalPrice is a var that allows function scope. 
-Question 4: The function will return [50,100,150]. This is because we send the given values of 100,200,300 as the prices and 0.5 as the discount to the function that ultimately calculates the discounted price for each given price by applying the 0.5 discount. we return discounted which is what contains the discounted prices and since this variable is in the function we can access it and return it. 
+
+Question 4: The function will return [50,100,150]. This is because we send the given values of 100,200,300 as the prices and 0.5 as the discount to the function that ultimately calculates the discounted price for each given price by applying the 0.5 discount. we return discounted which is what contains the discounted prices and since this variable is in the function we can access it and return it.
+
 Question 5: This would give an error saying i is not defined because on line 12 i is out of the block scope therefore outside the for loop, i is not defined and thus gives an error. This is because we use let to define discountedPrice.
+
 Question 6: This would give an error saying discountedPrice is not defined because on line 13 discountedPrice is out of the block scope therefore outside the for loop, it is not defined and thus gives an error. This is because we use let to define discountedPrice.
+
 Question 7: At line 14, it will print the value of finalPrice from the last iteration of teh for loop which is 150. since finalPrice is still within the scope of the function, printing it using console.log does not give an error. 
+
 Question 8: It will return [50,100,150] as there are no errors since all variables are in scope. we send the given values of [100,200,300] as the prices and 0.5 as the discount to the function that ultimately calculates the discounted price for each given price by applying the 0.5 discount. we return discounted which is what contains the discounted prices and since this variable is within the block scope, we can access it and return it.
+
 Question 9: Line 11 will give an error because i is not defined outside the scope of the for loop as it is declared using 'let'. 
+
 Question 10: It will print the value of the constant variable length which is 3 which is the size of prices variable. 
+
 Question 11: This will return [50,100,150] as there are no errors in this code. We send the given values [100,200,300] to the function along with the 0.5 discount and then we iterate through each price and calculate its discounted price. On every iteration, we create a new const variable discountedPrice therefore, we are able to push new values into the discounted variable. 
 
 Question 12: 
